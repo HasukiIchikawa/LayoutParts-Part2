@@ -1,1 +1,35 @@
 @charset "UTF-8";
+header {
+    background: #388bff;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.logo{
+    margin-top: 30px;
+}
+
+.logo a{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f2ff7b;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    display: inline-block;
+    margin: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
