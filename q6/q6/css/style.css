@@ -14,11 +14,11 @@ header {
 
 .logo{
     margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .logo a{
-    font-size: 24px;
-    font-weight: bold;
     color: #f2ff7b;
     text-decoration: none;
 }
@@ -27,9 +27,12 @@ header {
     display: flex;
 }
 
+.menu li {
+    list-style: none;
+    padding: 30px;
+}
+
 .menu a {
-    display: inline-block;
-    margin: 30px;
     color: #ffffff;
     text-decoration: none;
 }
