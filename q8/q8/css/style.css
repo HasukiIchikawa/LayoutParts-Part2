@@ -5,23 +5,17 @@
 }
 
 .bg-image-repeat {
-    background-image: url(../../image/coffee-background.jpg);
+    background: url(../../image/coffee-background.jpg);
 }
 
 .bg-image-norepeat {
-    background-image: url(../../image/coffee-background.jpg);
-    background-repeat: no-repeat;
+    background: url(../../image/coffee-background.jpg) no-repeat;
 }
 
 .bg-image-stretch {
-    background-image: url(../../image/coffee-background.jpg);
-    background-position: center;
-    background-size: cover;
+    background: url(../../image/coffee-background.jpg) no-repeat center/cover;
 }
 
 .bg-image-center {
-    background-image: url(../../image/coffee-background.jpg);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background: url(../../image/coffee-background.jpg) no-repeat center/contain;
 }
