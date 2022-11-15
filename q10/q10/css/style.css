@@ -41,8 +41,9 @@
 }
 
 .active--btn:active {
-    box-shadow: none;
-    transform: translate(0, 5px);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+    transform: translate(0, 4px);
 }
 
 .double--btn {
@@ -58,10 +59,11 @@
 .dotted--btn {
     color: #67c5ff;
     border: 4px dotted #75caff;
+    transition: .5s;
 }
 
 .dotted--btn:hover {
-    border: 4px dashed #75caff;
+    border-style: dashed;
 }
 
 .dashed--btn {
