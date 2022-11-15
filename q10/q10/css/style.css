@@ -1,1 +1,77 @@
 @charset "UTF-8";
+
+.d--flex {
+    display: flex;
+    justify-content: center;
+}
+
+.red--button {
+    color: #fff;
+    background: #fd0f0fd9;
+}
+
+.blue--button {
+    color: #fff;
+    background: #170ffdd9;
+}
+
+.green--button {
+    color: #000;
+    background: #0ffd0fd9;
+}
+
+.red--button, .blue--button, .green--button, .double--btn, .dotted--btn, .dashed--btn {
+    padding: 0 15px;
+    margin: 0 15px;
+    line-height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.shadow--red {
+    box-shadow: 0 5px 0 rgba(63, 5, 5, 0.851), 0 5px 1px rgba(63, 5, 5, 0.851)
+}
+
+.shadow--blue {
+    box-shadow: 0 5px 0 rgba(5, 13, 63, 0.851), 0 5px 1px rgba(5, 13, 63, 0.851);
+}
+
+.shadow--green {
+    box-shadow: 0 5px 0 rgba(5, 63, 5, 0.851), 0 5px 1px rgba(5, 63, 5, 0.851);
+}
+
+.active--btn:active {
+    box-shadow: none;
+    transform: translate(0, 5px);
+}
+
+.double--btn {
+    color: #67c5ff;
+    border: 4px double #67c5ff;
+    transition: 1s;
+}
+
+.double--btn:hover {
+    background: #fffbef;
+}
+
+.dotted--btn {
+    color: #67c5ff;
+    border: 4px dotted #75caff;
+}
+
+.dotted--btn:hover {
+    border: 4px dashed #75caff;
+}
+
+.dashed--btn {
+    color: #0079a5f8;
+    background: #d0edfff8;
+    border: 4px dashed #67c5ff;
+    transition: 1s;
+}
+
+.dashed--btn:hover {
+    color: #67c5ff;
+    background: #fff;
+}
